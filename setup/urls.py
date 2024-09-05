@@ -8,5 +8,5 @@ urlpatterns = [
     path('', index, name='index'),
     path('index.html', index, name='index'), 
     path('sondagem.html',sondagem, name='sondagem' ),
-    path('politicas_privacidade', politicas_privacidade, name='politicas_privacidade'), 
+    path('politicas_privacidade.html', politicas_privacidade, name='politicas_privacidade'), 
 ]

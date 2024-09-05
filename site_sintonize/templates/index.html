@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+{% load static %}
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -84,23 +83,24 @@
             }, 100);
         };
     </script>
-    <footer>
-        <div class="botao-container">
-            <a href="politicas_privacidade.html" name='politicas_privacidade' class="botao-termos">Termos e condições de uso do site</a>
+
+<footer>
+    <div class="botao-container">
+        <a href="politicas_privacidade.html" class="botao-termos">Termos e condições de uso do site</a>
+    </div>
+    <div class="footer-content">
+        <div class="texto">
+            <p><b>Atenção:</b> Este site e seus conteúdos têm o objetivo de informar e auxiliar na compreensão do <br> burnout e do estresse.  
+               No entanto, eles não substituem o diagnóstico e o tratamento realizado <br> por profissionais qualificados.  
+               Recomendamos que, em caso de sintomas persistentes ou <br> preocupações com sua saúde mental, você procure 
+               orientação médica ou psicológica.</p>
         </div>
-        <div class="footer-content">
-            <div class="texto">
-                <p><b>Atenção:</b> Este site e seus conteúdos têm o objetivo de informar e auxiliar na compreensão do <br> burnout e do estresse.  
-                   No entanto, eles não substituem o diagnóstico e o tratamento realizado <br> por profissionais qualificados.  
-                   Recomendamos que, em caso de sintomas persistentes ou <br> preocupações com sua saúde mental, você procure 
-                   orientação médica ou psicológica.</p>
-            </div>
-            <div class="logo-container">
-                <img src="static/images/podcast-logo.png" alt="Logo">
-                <p>Simulação de Projetos Ágeis,<br> iniciativa do podcast Pipoca Ágil.</p>
-            </div>
+        <div class="logo-container">
+            <img src="static/images/podcast-logo.png" alt="Logo">
+            <p>Simulação de Projetos Ágeis,<br> iniciativa do podcast Pipoca Ágil.</p>
         </div>
-    </footer>
-    
+    </div>
+</footer>
+
 </body>
 </html>

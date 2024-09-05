@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sintonize</title>
+    <link rel="stylesheet" href="static/css/estilos.css">
+    <link rel="stylesheet" href="static/css/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div class="header-banner" id="header-banner">
+            <img src="static/images/home1.png" alt="Imagem de apoio" id="header-image">
+            <nav class="menu" id="menu">
+                <ul id="menu-list">
+                    <li><a href="index.html" id="index">Home</a></li>
+                    <li><a href="sondagem.html" id="menu-formulario">Sondagem sobre Burnout</a></li>
+                </ul>
+            </nav>
+            <div class="header-content" id="header-content">
+                <h1 id="header-title">Olá! Como você está?</h1>
+                <p id="header-description">
+                    O Sintonize é um espaço que oferece funcionalidades focadas na saúde mental em relação ao trabalho. 
+                    Nossa plataforma ajuda você a identificar e gerenciar o estresse, além de fornecer ferramentas práticas 
+                    para melhorar sua saúde mental e manter o equilíbrio entre sua vida pessoal e profissional.
+                </p>
+            </div>
+        </div>
+    </header>
+    {% block content %}{%  endblock %} 
+
+    <footer>
+        <div class="botao-container">
+            <a href="politicas_privacidade.html" class="botao-termos">Termos e condições de uso do site</a>
+        </div>
+        <div class="footer-content">
+            <div class="texto">
+                <p><b>Atenção:</b> Este site e seus conteúdos têm o objetivo de informar e auxiliar na compreensão do <br> burnout e do estresse.  
+                   No entanto, eles não substituem o diagnóstico e o tratamento realizado <br> por profissionais qualificados.  
+                   Recomendamos que, em caso de sintomas persistentes ou <br> preocupações com sua saúde mental, você procure 
+                   orientação médica ou psicológica.</p>
+            </div>
+            <div class="logo-container">
+                <img src="static/images/podcast-logo.png" alt="Logo">
+                <p>Simulação de Projetos Ágeis,<br> iniciativa do podcast Pipoca Ágil.</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
+
